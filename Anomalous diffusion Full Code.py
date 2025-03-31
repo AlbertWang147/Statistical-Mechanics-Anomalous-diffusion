@@ -18,7 +18,6 @@ for R in R_values:
     
     results.append([R, u_mean, u_square_mean, u_std])
 
-# Convert results to DataFrame
 df_results = pd.DataFrame(results, columns=["R", "Mean (u_R)", "Expectation (u²_R)", "Std dev (σ_R)"])
 
 print(df_results)
